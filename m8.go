@@ -43,9 +43,9 @@ func (q *Queue) Display() {
 func main() {
 	queue := Queue{}
 
-	queue.Enqueue(10)
-	queue.Enqueue(20)
-	queue.Enqueue(30)
+	queue.Enqueue(11)
+	queue.Enqueue(22)
+	queue.Enqueue(33)
 
 	queue.Display()
 
